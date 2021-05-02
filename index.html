@@ -14,27 +14,39 @@
       border-style: solid;
       padding: 5 px;
     }
-    @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
+
 .btn:hover{
   border-width: 2px;
   background-color: #ad9e9e;
 }
+main {
+    background: linear-gradient(104deg, #ffcccc, #ffffcc, #ccffff);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 4s ease infinite;
+    -moz-animation: AnimationName 4s ease infinite;
+    animation: AnimationName 4s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
   </style>
 </head>
 <body>
-  <main style='background: linear-gradient(45deg, #FFCCCC, yellow, #CCFFFF);
-	animation: gradient 15s ease infinite;
-  '>
+  <main>
     <article>
       <div class="page" style="border-color: #FFFCCC; background: linear-gradient(-45deg, #CCFFFF, rgb(255, 255, 114), #FFCCCC); 
         
