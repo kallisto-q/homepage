@@ -14,6 +14,17 @@
       border-style: solid;
       padding: 5 px;
     }
+    @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
   </style>
 </head>
 <body>
@@ -202,7 +213,7 @@
                   <h4>Composed 30+ pieces of music</h4>
                 </div><br>
                 <strong>sommer zeit</strong>
-                <audio id="player" src="./files/sommer zeit.mp3" type="audio/mpeg"></audio>
+                <audio id="player" src="./files/sommerzeit.mp3" type="audio/mpeg"></audio>
                 <div>
                   <button class='btn btn-default' onclick="document.getElementById('player').play()">Play</button>
                   <button class='btn btn-default' onclick="document.getElementById('player').pause()">Pause</button>
@@ -225,7 +236,7 @@
                 </div>
                 <br>
                 <strong>hakuna potato</strong>
-                <audio id="player" src="./files/hakuna potato.mp3" type="audio/mpeg"></audio>
+                <audio id="player" src="./files/hakunapotato.mp3" type="audio/mpeg"></audio>
                 <div>
                   <button class='btn btn-default' onclick="document.getElementById('player').play()">Play</button>
                   <button class='btn btn-default' onclick="document.getElementById('player').pause()">Pause</button>
