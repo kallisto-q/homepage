@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8" />
   <title>Résumé</title>
-  <link rel="shortcut icon" type="image/jpg" href="./files/favicon.png"/>
+  <link rel="shortcut icon" type="image/jpg" href="./files/favicon.png" />
   <link rel="stylesheet" href="./base.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <style>
     .btn {
       background-color: #dddddd;
@@ -17,43 +19,72 @@
       padding: 5 px;
     }
 
-.btn:hover{
-  border-width: 7px;
-  background-color: rgb(255, 206, 214);
-}
-main {
-    background: linear-gradient(45deg, pink, rgb(255, 255, 114), #CCFFFF);
-    background-size: 600% 600%;
+    .btn:hover {
+      border-width: 7px;
+      background-color: rgb(255, 206, 214);
+    }
 
-    -webkit-animation: AnimationName 4s ease infinite;
-    -moz-animation: AnimationName 4s ease infinite;
-    animation: AnimationName 4s ease infinite;
-}
-.page {
-    background: linear-gradient(-45deg, cyan, rgb(255, 255, 114), pink);
+    main {
+      background: linear-gradient(45deg, pink, rgb(255, 255, 114), #CCFFFF);
+      background-size: 600% 600%;
 
-    -webkit-animation: AnimationName 4s ease infinite;
-    -moz-animation: AnimationName 4s ease infinite;
-    animation: AnimationName 4s ease infinite;
-}
+      -webkit-animation: AnimationName 4s ease infinite;
+      -moz-animation: AnimationName 4s ease infinite;
+      animation: AnimationName 4s ease infinite;
+    }
 
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
+    .page {
+      background: linear-gradient(-45deg, cyan, rgb(255, 255, 114), pink);
+
+      -webkit-animation: AnimationName 4s ease infinite;
+      -moz-animation: AnimationName 4s ease infinite;
+      animation: AnimationName 4s ease infinite;
+    }
+
+    @-webkit-keyframes AnimationName {
+      0% {
+        background-position: 0% 50%
+      }
+
+      50% {
+        background-position: 100% 50%
+      }
+
+      100% {
+        background-position: 0% 50%
+      }
+    }
+
+    @-moz-keyframes AnimationName {
+      0% {
+        background-position: 0% 50%
+      }
+
+      50% {
+        background-position: 100% 50%
+      }
+
+      100% {
+        background-position: 0% 50%
+      }
+    }
+
+    @keyframes AnimationName {
+      0% {
+        background-position: 0% 50%
+      }
+
+      50% {
+        background-position: 100% 50%
+      }
+
+      100% {
+        background-position: 0% 50%
+      }
+    }
   </style>
 </head>
+
 <body>
   <main>
     <article>
@@ -88,7 +119,7 @@ main {
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
                           <path
                             d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
-                          </svg>
+                        </svg>
                         <span>kallisto-q</span>
                       </a>
                     </li>
@@ -109,10 +140,10 @@ main {
                 </div>
                 <div class="sixteen wide column">
                   <h2>Résumé</h2>
-                <p>Hey there! I'm 17 years old food technologist, musician, part of <a
-                    href="https://ugs.foundation">Ukraine Global Scholars</a> family, and incoming student of <a
-                    href="https://deerfield.edu">Deerfield Academy</a>, where I received full financial aid. I want to
-                  aquire web development skills and establish an online literary magazine.</p>
+                  <p>Hey there! I'm 17 years old food technologist, musician, part of <a
+                      href="https://ugs.foundation">Ukraine Global Scholars</a> family, and incoming student of <a
+                      href="https://deerfield.edu">Deerfield Academy</a>, where I received full financial aid. I want to
+                    aquire web development skills and establish an online literary magazine.</p>
                 </div>
               </div>
             </div>
@@ -125,117 +156,119 @@ main {
           <div class="row">
             <div class="ten wide column">
               <h3>XP:</h3>
-                <h6>2020 &ndash; 2021:</h6>
-                <ul class="timeline">
-                  <li>
-                    <p><em>April 2021</em></p>
-                    <p>realized that I didn't know JavaScript and turned the PANIC MODE on</p>
-                  </li>
-                  <li>
-                    <p><em>January 2021</em></p>
-                    <p>finished my school application and started learning JavaScript on FreeCodeCamp</p>
-                  </li>
-                  <li>
-                  <li>
-                    <p><em>November &ndash; December 2020</em></p>
-                    <p>my last research on gummies</p>
-                  </li>
-                  <li>
-                    <p><em>June &ndash; October 2020</em></p>
-                    <p>SAT (1500) and TOEFL (107) prep, applying to schools along with studying HTML&CSS
-                      on FreeCodeCamp</p>
-                  </li>
-                  <li>
-                    <p><em>June 2020</em></p>
-                    <p><strong>got my first laptop</strong></p>
-                  </li>
-                  <li>
-                    <p><em>10<sup>th</sup> March 2020</em></p>
-                    <p>my last experiment on gummies in a lab of Kyiv National University of Trade and Economics</p>
-                  </li>
-                  <li>
+              <h6>2020 &ndash; 2021:</h6>
+              <ul class="timeline">
+                <li>
+                  <p><em>April 2021</em></p>
+                  <p>realized that I didn't know JavaScript and turned the PANIC MODE on</p>
+                </li>
+                <li>
+                  <p><em>January 2021</em></p>
+                  <p>finished my school application and started learning JavaScript on FreeCodeCamp</p>
+                </li>
+                <li>
+                <li>
+                  <p><em>November &ndash; December 2020</em></p>
+                  <p>my last research on gummies</p>
+                </li>
+                <li>
+                  <p><em>June &ndash; October 2020</em></p>
+                  <p>SAT (1500) and TOEFL (107) prep, applying to schools along with studying HTML&CSS
+                    on FreeCodeCamp</p>
+                </li>
+                <li>
+                  <p><em>June 2020</em></p>
+                  <p><strong>got my first laptop</strong></p>
+                </li>
+                <li>
+                  <p><em>10<sup>th</sup> March 2020</em></p>
+                  <p>my last experiment on gummies in a lab of Kyiv National University of Trade and Economics</p>
+                </li>
+                <li>
 
-                  </li>
-                  <li>
+                </li>
+                <li>
 
-                  </li>
-                </ul>
-                <h6>Earlier:</h6>
-                <ul>
-                  <li class="highlighted">
-                    <p><em>1<sup>st</sup> September 2019 – 1<sup>st</sup> June 2020</em></p>
-                    <p><strong>Advanced curriculum in Science</strong> at <a
-                        href="https://new.naukova-zmina.org.ua"><strong>Lyceum “Naukova zmina” </strong></a></p>
-                    <ol class="inverted">
-                      <li>
-                        <strong>Material science research — Junior Academy of Sciences</strong>
-                        <ul>
-                          <li><strong>Analyzed</strong> the internal structure of jelly candies to find the relationship
-                            between candies' content and their physical properties by the means of stretching</li>
-                          <li><strong>Won</strong> the <em>1<sup>st</sup> place</em> on the Kyiv Research Contest of
-                            Junior Academy of Sciences in category “Physics” (out of <em>700+ students</em>)</li>
-                          <li><strong>Published</strong> the research paper <em>twice</em> in the National University of
-                            Food Technology and Kyiv National University of Trade and Economics abstracts digests</li>
-                          <li><strong>Presented</strong> the results on the National University of Food Technology
-                            Student
-                            Conference</li>
-
-
-                        </ul>
-                      </li>
-                    </ol>
-                    <ol class="inverted">
-                      <li>
-                        <strong>Biology research — Junior Academy of Sciences</strong>
-                        <ul>
-                          <li><strong>Examined</strong> a variety of antibiotics and disinfectants and their impact on
-                            human ear microbiota and found best ways of earphone disinfection </li>
-                          <li><strong>Presented</strong> these findings on the Kyiv Research Contest of Junior Academy
-                            of
-                            Sciences</li>
-                        </ul>
-                      </li>
-                    </ol>
-                    <ol class="inverted">
-                      <li>
-                        <strong>Academic olympiads</strong>
-                        <ul>
-                          <li><strong>Won</strong> Biology and Geography Kyiv Olympiads (<em>3<sup>rd</sup></em> among
-                            <em>600+ participants</em>)</li>
-                          <li>Multi-time participant of the Ukrainian Brain Bee Neuroscience Competition (online)</li>
-                          <li>Received <strong>Bronze Honour</strong> in International Astronomy and Astrophysics
-                            Competition</li>
-                        </ul>
-                      </li>
-                    </ol>
-                  </li>
-
-                </ul>
-                <ul>
-                  <li>
-                    <strong>Piano</strong> at Art School №4
-                    <ol class="inverted">
+                </li>
+              </ul>
+              <h6>Earlier:</h6>
+              <ul>
+                <li class="highlighted">
+                  <p><em>1<sup>st</sup> September 2019 – 1<sup>st</sup> June 2020</em></p>
+                  <p><strong>Advanced curriculum in Science</strong> at <a
+                      href="https://new.naukova-zmina.org.ua"><strong>Lyceum “Naukova zmina” </strong></a></p>
+                  <ol class="inverted">
+                    <li>
+                      <strong>Material science research — Junior Academy of Sciences</strong>
                       <ul>
-                        <li>Won the district festival “Large Family Talents” in the nomination of instrumental genre
-                        </li>
-                        <li>Won district festival “Molodist” in vocal-instrumental genre category</li>
-                        <li>Composed 30+ electronic and piano pieces of music</li>
+                        <li><strong>Analyzed</strong> the internal structure of jelly candies to find the relationship
+                          between candies' content and their physical properties by the means of stretching</li>
+                        <li><strong>Won</strong> the <em>1<sup>st</sup> place</em> on the Kyiv Research Contest of
+                          Junior Academy of Sciences in category “Physics” (out of <em>700+ students</em>)</li>
+                        <li><strong>Published</strong> the research paper <em>twice</em> in the National University of
+                          Food Technology and Kyiv National University of Trade and Economics abstracts digests</li>
+                        <li><strong>Presented</strong> the results on the National University of Food Technology
+                          Student
+                          Conference</li>
 
 
                       </ul>
-                    </ol>
+                    </li>
+                  </ol>
+                  <ol class="inverted">
+                    <li>
+                      <strong>Biology research — Junior Academy of Sciences</strong>
+                      <ul>
+                        <li><strong>Examined</strong> a variety of antibiotics and disinfectants and their impact on
+                          human ear microbiota and found best ways of earphone disinfection </li>
+                        <li><strong>Presented</strong> these findings on the Kyiv Research Contest of Junior Academy
+                          of
+                          Sciences</li>
+                      </ul>
+                    </li>
+                  </ol>
+                  <ol class="inverted">
+                    <li>
+                      <strong>Academic olympiads</strong>
+                      <ul>
+                        <li><strong>Won</strong> Biology and Geography Kyiv Olympiads (<em>3<sup>rd</sup></em> among
+                          <em>600+ participants</em>)</li>
+                        <li>Multi-time participant of the Ukrainian Brain Bee Neuroscience Competition (online)</li>
+                        <li>Received <strong>Bronze Honour</strong> in International Astronomy and Astrophysics
+                          Competition</li>
+                      </ul>
+                    </li>
+                  </ol>
+                </li>
+
+              </ul>
+              <ul>
+                <li>
+                  <strong>Piano</strong> at Art School №4
+                  <ol class="inverted">
+                    <ul>
+                      <li>Won the district festival “Large Family Talents” in the nomination of instrumental genre
+                      </li>
+                      <li>Won district festival “Molodist” in vocal-instrumental genre category</li>
+                      <li>Composed 30+ electronic and piano pieces of music</li>
 
 
-                  </li>
+                    </ul>
+                  </ol>
 
-                </ul>
+
+                </li>
+
+              </ul>
             </div>
             <div class="six wide column">
               <section>
                 <h3>Languages</h3>
                 <p class="tags small">
-                  <a href="uk-ua/index.html" hreflang="uk" rel="alternate" class="language" lang="uk">&#x1f1fa;&#x1f1e6; <span>УКРАЇНСЬКА</span></a> 
-                  <a href="ru-ru/index.html" hreflang="ru" rel="alternate" class="language" lang="ru">&#x1f1f7;&#x1f1fa; <span>РУССКИЙ</span></a> 
+                  <a href="uk-ua/index.html" hreflang="uk" rel="alternate" class="language" lang="uk">&#x1f1fa;&#x1f1e6;
+                    <span>УКРАЇНСЬКА</span></a>
+                  <a href="ru-ru/index.html" hreflang="ru" rel="alternate" class="language" lang="ru">&#x1f1f7;&#x1f1fa;
+                    <span>РУССКИЙ</span></a>
                   <span class="language" lang="en">&#x1f1fa;&#x1f1f8; ENGLISH</span>
                 </p>
               </section>
@@ -324,10 +357,6 @@ main {
                   <a href="https://perchance.org">perchance.org</a> — Creative Writing — Fanfiction
                 </p>
               </section>
-              <!-- Dislikes -->
-              <!-- Wants -->
-              <!-- Education -->
-              <!-- Articles -->
             </div>
           </div>
         </div>
@@ -335,4 +364,5 @@ main {
     </article>
   </main>
 </body>
+
 </html>
