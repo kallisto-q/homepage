@@ -137,7 +137,7 @@ li {
 
 ul>li:before {
   content: "●";
-  font-family: "Arial";
+  font-family: Arial, sans-serif;
   float: left;
   width: 1.5em;
   margin-left: -1.5em;
@@ -181,10 +181,10 @@ a.language:hover span {
 }
 
 code {
-  border: 1px solid #BDBDBD;
+  border: 1px solid #bdbdbd;
   padding: 0em 0.25em;
   border-radius: 3px;
-  background: #EEEEEE;
+  background: #eee;
   font-size: 95%;
 }
 
@@ -352,6 +352,7 @@ article {
   flex-wrap: wrap;
   align-items: stretch;
   padding: 0;
+
   /**
      * Temporary hack to be sure avatar
      * is rendered on print preview
@@ -379,7 +380,9 @@ article {
 }
 
 /* Columns */
+
 /* Standard 16 column */
+
 .grid>.column:not(.row),
 .grid>.row>.column {
   position: relative;
@@ -396,6 +399,7 @@ article {
 }
 
 /* Columns */
+
 /* Vertical padding when no rows */
 .grid>.column:not(.row) {
   padding-top: 1rem;
@@ -685,7 +689,7 @@ article {
 }
 
 .contacts li a.telegram:hover {
-  color: #0088cc;
+  color: #08c;
 }
 
 .contacts li a.phone:hover {
