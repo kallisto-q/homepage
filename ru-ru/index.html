@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8" />
   <title>Résumé</title>
   <link rel="stylesheet" href="../base.css">
-  <link rel="shortcut icon" type="image/jpg" href="../files/favicon.png"/>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/jpg" href="../files/favicon.png" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <style>
     .btn {
       background-color: #dddddd;
@@ -17,43 +19,71 @@
       padding: 5 px;
     }
 
-.btn:hover{
-  border-width: 7px;
-  background-color: rgb(255, 206, 214);
-}
-main {
-    background: linear-gradient(45deg, pink, rgb(255, 255, 114), #CCFFFF);
-    background-size: 600% 600%;
+    .btn:hover {
+      background-color: rgb(255, 206, 214);
+    }
 
-    -webkit-animation: AnimationName 4s ease infinite;
-    -moz-animation: AnimationName 4s ease infinite;
-    animation: AnimationName 4s ease infinite;
-}
-.page {
-    background: linear-gradient(-45deg, cyan, rgb(255, 255, 114), pink);
+    main {
+      background: linear-gradient(45deg, pink, rgb(255, 255, 114), #CCFFFF);
+      background-size: 600% 600%;
 
-    -webkit-animation: AnimationName 4s ease infinite;
-    -moz-animation: AnimationName 4s ease infinite;
-    animation: AnimationName 4s ease infinite;
-}
+      -webkit-animation: AnimationName 4s ease infinite;
+      -moz-animation: AnimationName 4s ease infinite;
+      animation: AnimationName 4s ease infinite;
+    }
 
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
+    .page {
+      background: linear-gradient(-45deg, cyan, rgb(255, 255, 114), pink);
+
+      -webkit-animation: AnimationName 4s ease infinite;
+      -moz-animation: AnimationName 4s ease infinite;
+      animation: AnimationName 4s ease infinite;
+    }
+
+    @-webkit-keyframes AnimationName {
+      0% {
+        background-position: 0% 50%
+      }
+
+      50% {
+        background-position: 100% 50%
+      }
+
+      100% {
+        background-position: 0% 50%
+      }
+    }
+
+    @-moz-keyframes AnimationName {
+      0% {
+        background-position: 0% 50%
+      }
+
+      50% {
+        background-position: 100% 50%
+      }
+
+      100% {
+        background-position: 0% 50%
+      }
+    }
+
+    @keyframes AnimationName {
+      0% {
+        background-position: 0% 50%
+      }
+
+      50% {
+        background-position: 100% 50%
+      }
+
+      100% {
+        background-position: 0% 50%
+      }
+    }
   </style>
 </head>
+
 <body>
   <main>
     <article>
@@ -88,7 +118,7 @@ main {
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
                           <path
                             d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
-                          </svg>
+                        </svg>
                         <span>kallisto-q</span>
                       </a>
                     </li>
@@ -109,7 +139,10 @@ main {
                 </div>
                 <div class="sixteen wide column">
                   <h2>Резюме</h2>
-                <p>Ку! Мне 17, и я пищевой технолог, музыкант, часть семьи <a href="https://ugs.foundation">Ukraine Global Scholars</a> и будущая студентка <a href="https://deerfield.edu">Deerfield Academy</a>(которая покрывает все расходы на учебу). Я хочу стать веб-разработчиком и основать собственное литературное онлайн-издание.</p>
+                  <p>Ку! Мне 17, и я пищевой технолог, музыкант, часть семьи <a href="https://ugs.foundation">Ukraine
+                      Global Scholars</a> и будущая студентка <a href="https://deerfield.edu">Deerfield
+                      Academy</a>(которая покрывает все расходы на учебу). Я хочу стать веб-разработчиком и основать
+                    собственное литературное онлайн-издание.</p>
                 </div>
               </div>
             </div>
@@ -122,192 +155,204 @@ main {
           <div class="row">
             <div class="ten wide column">
               <h3>XP:</h3>
-                <h6>2020 &ndash; 2021:</h6>
-                <ul class="timeline">
-                  <li>
-                    <p><em>апрель 2021</em></p>
-                    <p>поняла что не шарю JavaScript и включила ПАНИКУ</p>
-                  </li>
-                  <li>
-                    <p><em>январь 2021</em></p>
-                    <p>конец подачи в школы и начало джаваскрипта на FreeCodeCamp</p>
-                  </li>
-                  <li>
-                  <li>
-                    <p><em>ноябрь &ndash; декабрь 2020</em></p>
-                    <p>моя последняя защита научки про желейки</p>
-                  </li>
-                  <li>
-                    <p><em>июнь &ndash; октябрь 2020</em></p>
-                    <p>подготовка к SAT (1500) and TOEFL (107), подача документов в школы и изучение HTML&CSS на FreeCodeCamp</p>
-                  </li>
-                  <li>
-                    <p><em>июнь 2020</em></p>
-                    <p><strong>мой первый ноут</strong></p>
-                  </li>
-                  <li>
-                    <p><em>10<sup>е</sup> марта 2020</em></p>
-                    <p>последние пытки над желейками в лаборатории КНТЕУ</p>
-                  </li>
-                  <li>
+              <h6>2020 &ndash; 2021:</h6>
+              <ul class="timeline">
+                <li>
+                  <p><em>апрель 2021</em></p>
+                  <p>поняла что не шарю JavaScript и включила ПАНИКУ</p>
+                </li>
+                <li>
+                  <p><em>январь 2021</em></p>
+                  <p>конец подачи в школы и начало джаваскрипта на <a href='https://www.freecodecamp.org/learn/'>FreeCodeCamp</a></p>
+                </li>
+                <li>
+                <li>
+                  <p><em>ноябрь &ndash; декабрь 2020</em></p>
+                  <p>моя последняя защита научки про желейки</p>
+                </li>
+                <li>
+                  <p><em>июнь &ndash; октябрь 2020</em></p>
+                  <p>подготовка к SAT (1500) and TOEFL (107), подача документов в школы и изучение HTML&CSS на
+                    <a href='https://www.freecodecamp.org/learn/'>FreeCodeCamp</a></p>
+                </li>
+                <li>
+                  <p><em>июнь 2020</em></p>
+                  <p><strong>мой первый ноут</strong></p>
+                </li>
+                <li>
+                  <p><em>10<sup>е</sup> марта 2020</em></p>
+                  <p>последние пытки над желейками в лаборатории КНТЕУ</p>
+                </li>
+                <li>
 
-                  </li>
-                  <li>
+                </li>
+                <li>
 
-                  </li>
-                </ul>
-                <h6>Чуть ранее:</h6>
-                <ul>
-                  <li class="highlighted">
-                    <p><em>1<sup>е</sup> сентября 2019 – 1<sup>е</sup> Июня 2020</em></p>
-                    <p><strong>Профильный химбио класс</strong> в <a
-                        href="https://new.naukova-zmina.org.ua"><strong>лицее “Научная смена” </strong></a></p>
-                    <ol class="inverted">
-                      <li>
-                        <strong>Рисерч по физике — Малая академия наук Украины</strong>
-                        <ul>
-                          <li><strong>Изучила</strong> структуру желеек и зависимость поведения при растягивании от состава</li>
-                          <li>Заняла <strong><em>1<sup>е</sup> место</em></strong> на конкурсе научных работ Малой академии наук (среди <em>700+ участников</em>)</li>
-                          <li><strong>Опубликовала</strong> научную работу <em>дважды</em> в сборниках тез Национального Университета Пищевых Технологий и Киевского Национального Торгово-Экономического Университета</li>
-                          <li><strong>Презентовала</strong> работу на студенческой конференции Национального Университета Пищевых Технологий</li>
-
-
-                        </ul>
-                      </li>
-                    </ol>
-                    <ol class="inverted">
-                      <li>
-                        <strong>Рисерч по биологии — Малая академия наук Украины</strong>
-                        <ul>
-                          <li><strong>Изучила</strong> антибиотики и дезинфекторы и их влияние на микробиоту уха человека; определила лучший способ дезинфекции наушников</li>
-                          <li><strong>Презентовала</strong> результаты на конкурсе Малой академии наук</li>
-                        </ul>
-                      </li>
-                    </ol>
-                    <ol class="inverted">
-                      <li>
-                        <strong>Конкурсы, олимпиады</strong>
-                        <ul>
-                          <li><strong>Заняла призовое место</strong> на 3 этапе олимпиад по биологии и географии (<em>3<sup>е</sup></em> среди <em>600+ участников</em>)</li>
-                          <li>Многоразовое участие в Ukrainian Brain Bee Neuroscience Competition</li>
-                          <li>Получила <strong>Bronze Honour</strong> на International Astronomy and Astrophysics
-                            Competition</li>
-                        </ul>
-                      </li>
-                    </ol>
-                  </li>
-
-                </ul>
-                <ul>
-                  <li>
-                    <strong>Фортепиано</strong> в Детской школе искусств (исскуств) №4
-                    <ol class="inverted">
+                </li>
+              </ul>
+              <h6>Чуть ранее:</h6>
+              <ul>
+                <li class="highlighted">
+                  <p><em>1<sup>е</sup> сентября 2019 – 1<sup>е</sup> Июня 2020</em></p>
+                  <p><strong>Профильный химбио класс</strong> в <a href="https://new.naukova-zmina.org.ua"><strong>лицее
+                        “Научная смена” </strong></a></p>
+                  <ol class="inverted">
+                    <li>
+                      <strong>Рисерч по физике — Малая академия наук Украины</strong>
                       <ul>
-                        <li>Заняла призовое место на фестивале "Таланти Багатодітних Родин" в инструментальном жанре </li>
-                        <li>Заняла призовое место на фестивале "Молодість-2019" в вокально-инструментальном жанре</li>
-                        <li>Создала 30+ композиций</li>
+                        <li><strong>Изучила</strong> структуру желеек и зависимость поведения при растягивании от
+                          состава</li>
+                        <li>Заняла <strong><em>1<sup>е</sup> место</em></strong> на конкурсе научных работ Малой
+                          академии наук (среди <em>700+ участников</em>)</li>
+                        <li><strong>Опубликовала</strong> научную работу <em>дважды</em> в сборниках тез Национального
+                          Университета Пищевых Технологий и Киевского Национального Торгово-Экономического Университета
+                        </li>
+                        <li><strong>Презентовала</strong> работу на студенческой конференции Национального Университета
+                          Пищевых Технологий</li>
 
 
                       </ul>
-                    </ol>
+                    </li>
+                  </ol>
+                  <ol class="inverted">
+                    <li>
+                      <strong>Рисерч по биологии — Малая академия наук Украины</strong>
+                      <ul>
+                        <li><strong>Изучила</strong> антибиотики и дезинфекторы и их влияние на микробиоту уха человека;
+                          определила лучший способ дезинфекции наушников</li>
+                        <li><strong>Презентовала</strong> результаты на конкурсе Малой академии наук</li>
+                      </ul>
+                    </li>
+                  </ol>
+                  <ol class="inverted">
+                    <li>
+                      <strong>Конкурсы, олимпиады</strong>
+                      <ul>
+                        <li><strong>Заняла призовое место</strong> на 3 этапе олимпиад по биологии и географии
+                          (<em>3<sup>е</sup></em> среди <em>600+ участников</em>)</li>
+                        <li>Многоразовое участие в <a href='http://brainbee.in.ua/'>Ukrainian Brain Bee Neuroscience Competition</a></li>
+                        <li>Получила <strong>Bronze Honour</strong> на <a href='https://iaac.space/en/'>International Astronomy and Astrophysics
+                          Competition</a></li>
+                      </ul>
+                    </li>
+                  </ol>
+                </li>
+
+              </ul>
+              <ul>
+                <li>
+                  <strong>Фортепиано</strong> в Детской школе искусств (исскуств) №4
+                  <ol class="inverted">
+                    <ul>
+                      <li>Заняла призовое место на фестивале "Таланти Багатодітних Родин" в инструментальном жанре </li>
+                      <li>Заняла призовое место на фестивале "Молодість-2019" в вокально-инструментальном жанре</li>
+                      <li>Создала 30+ композиций</li>
 
 
-                  </li>
+                    </ul>
+                  </ol>
 
-                </ul>
+
+                </li>
+
+              </ul>
             </div>
             <div class="six wide column">
               <section>
                 <section>
-                    <h3>Языки</h3>
-                    <p class="tags small">
-                        <a href="../uk-ua/index.html" hreflang="uk" rel="alternate" class="language" lang="uk">&#x1f1fa;&#x1f1e6; <span>УКРАЇНСЬКА</span></a> 
-                        <span class="language" lang="ru">&#x1f1f7;&#x1f1fa; РУССКИЙ</span> 
-                        <a href="../index.html" hreflang="en" rel="alternate" class="language" lang="en">&#x1f1fa;&#x1f1f8; <span>ENGLISH</span></a>
-                    </p>
+                  <h3>Языки</h3>
+                  <p class="tags small">
+                    <a href="../uk-ua/index.html" hreflang="uk" rel="alternate" class="language"
+                      lang="uk">&#x1f1fa;&#x1f1e6; <span>УКРАЇНСЬКА</span></a>
+                    <span class="language" lang="ru">&#x1f1f7;&#x1f1fa; РУССКИЙ</span>
+                    <a href="../index.html" hreflang="en" rel="alternate" class="language" lang="en">&#x1f1fa;&#x1f1f8;
+                      <span>ENGLISH</span></a>
+                  </p>
                 </section>
-              <section>
-                <h3>Музыка</h3>
-                <div>
-                  <h4>Играю на фортепиано и всегда проигрываю(</h4>
-                </div><br>
-                <strong>sommer zeit</strong>
-                <audio id="player-1" src="../files/sommerzeit.mp3" type="audio/mpeg"></audio>
-                <div>
-                  <button class='btn btn-default' onclick="document.getElementById('player-1').play()">Play</button>
-                  <button class='btn btn-default' onclick="document.getElementById('player-1').pause()">Pause</button>
-                  <button class='btn btn-default' onclick="document.getElementById('player-1').volume += 0.1">Vol
-                    +</button>
-                  <button class='btn btn-default' onclick="document.getElementById('player-1').volume -= 0.1">Vol
-                    -</button>
-                </div>
-                <br>
+                <section>
+                  <h3>Музыка</h3>
+                  <div>
+                    <h4>Играю на фортепиано и всегда проигрываю(</h4>
+                  </div><br>
+                  <strong>sommer zeit</strong>
+                  <audio id="player-1" src="../files/sommerzeit.mp3" type="audio/mpeg"></audio>
+                  <div>
+                    <button class='btn btn-default' onclick="document.getElementById('player-1').play()">Play</button>
+                    <button class='btn btn-default' onclick="document.getElementById('player-1').pause()">Pause</button>
+                    <button class='btn btn-default' onclick="document.getElementById('player-1').volume += 0.1">Vol
+                      +</button>
+                    <button class='btn btn-default' onclick="document.getElementById('player-1').volume -= 0.1">Vol
+                      -</button>
+                  </div>
+                  <br>
 
-                <strong>mess</strong>
-                <audio id="player-2" src="../files/mess.mp3" type="audio/mpeg"></audio>
-                <div>
-                  <button class='btn btn-default' onclick="document.getElementById('player-2').play()">Play</button>
-                  <button class='btn btn-default' onclick="document.getElementById('player-2').pause()">Pause</button>
-                  <button class='btn btn-default' onclick="document.getElementById('player-2').volume += 0.1">Vol
-                    +</button>
-                  <button class='btn btn-default' onclick="document.getElementById('player-2').volume -= 0.1">Vol
-                    -</button>
-                </div>
-                <br>
-                <strong>hakuna potato</strong>
-                <audio id="player-3" src="../files/hakunapotato.mp3" type="audio/mpeg"></audio>
-                <div>
-                  <button class='btn btn-default' onclick="document.getElementById('player-3').play()">Play</button>
-                  <button class='btn btn-default' onclick="document.getElementById('player-3').pause()">Pause</button>
-                  <button class='btn btn-default' onclick="document.getElementById('player-3').volume += 0.1">Vol
-                    +</button>
-                  <button class='btn btn-default' onclick="document.getElementById('player-3').volume -= 0.1">Vol
-                    -</button>
-                </div>
-                <br>
-                <strong>vesna</strong>
-                <audio id="player-4" src="../files/vesna.mp3" type="audio/mpeg"></audio>
-                <div>
-                  <button class='btn btn-default' onclick="document.getElementById('player-4').play()">Play</button>
-                  <button class='btn btn-default' onclick="document.getElementById('player-4').pause()">Pause</button>
-                  <button class='btn btn-default' onclick="document.getElementById('player-4').volume += 0.1">Vol
-                    +</button>
-                  <button class='btn btn-default' onclick="document.getElementById('player-4').volume -= 0.1">Vol
-                    -</button>
-                </div>
-              </section>
-              <section>
-                <h3>Education</h3>
-                <ul class="timeline">
-                  <li>
-                    <div><em><a href="https://deerfield.edu"><strong>Deerfield Academy </strong></a>| Deerfield, MA |
-                        2021 &ndash; 2023</em></div>
-                    <div>Засчитана на 2021, все расходы оплачиваются школой</div>
-                  </li>
-                  <li>
-                    <div><em><a href="https://new.naukova-zmina.org.ua"><strong>Лицей "Научная смена" </strong></a>|
-                        Киев, Украина | 2014 &ndash; 2021</em></div>
-                    <div>
-                      Средний балл 11.0 из 12.0<br>
-                      Профильный химбио класс
-                    </div>
-                  </li>
-                  <li>
-                    <div><em><strong>Детская школа исскуств (искусств) №4 </strong>| Киев, Украина | 2012 &ndash; 2020</em></div>
-                    <div>
-                      Окончила класс фортепиано<br>
-                      Предметы: фортепиано, хор, сольфеджио, музыкальная литература
-                    </div>
-                  </li>
-                </ul>
-              </section>
-              <section>
-                <h3>Навыки</h3>
+                  <strong>mess</strong>
+                  <audio id="player-2" src="../files/mess.mp3" type="audio/mpeg"></audio>
+                  <div>
+                    <button class='btn btn-default' onclick="document.getElementById('player-2').play()">Play</button>
+                    <button class='btn btn-default' onclick="document.getElementById('player-2').pause()">Pause</button>
+                    <button class='btn btn-default' onclick="document.getElementById('player-2').volume += 0.1">Vol
+                      +</button>
+                    <button class='btn btn-default' onclick="document.getElementById('player-2').volume -= 0.1">Vol
+                      -</button>
+                  </div>
+                  <br>
+                  <strong>hakuna potato</strong>
+                  <audio id="player-3" src="../files/hakunapotato.mp3" type="audio/mpeg"></audio>
+                  <div>
+                    <button class='btn btn-default' onclick="document.getElementById('player-3').play()">Play</button>
+                    <button class='btn btn-default' onclick="document.getElementById('player-3').pause()">Pause</button>
+                    <button class='btn btn-default' onclick="document.getElementById('player-3').volume += 0.1">Vol
+                      +</button>
+                    <button class='btn btn-default' onclick="document.getElementById('player-3').volume -= 0.1">Vol
+                      -</button>
+                  </div>
+                  <br>
+                  <strong>vesna</strong>
+                  <audio id="player-4" src="../files/vesna.mp3" type="audio/mpeg"></audio>
+                  <div>
+                    <button class='btn btn-default' onclick="document.getElementById('player-4').play()">Play</button>
+                    <button class='btn btn-default' onclick="document.getElementById('player-4').pause()">Pause</button>
+                    <button class='btn btn-default' onclick="document.getElementById('player-4').volume += 0.1">Vol
+                      +</button>
+                    <button class='btn btn-default' onclick="document.getElementById('player-4').volume -= 0.1">Vol
+                      -</button>
+                  </div>
+                </section>
+                <section>
+                  <h3>Education</h3>
+                  <ul class="timeline">
+                    <li>
+                      <div><em><a href="https://deerfield.edu"><strong>Deerfield Academy </strong></a>| Deerfield, MA |
+                          2021 &ndash; 2023</em></div>
+                      <div>Засчитана на 2021, все расходы оплачиваются школой</div>
+                    </li>
+                    <li>
+                      <div><em><a href="https://new.naukova-zmina.org.ua"><strong>Лицей "Научная смена" </strong></a>|
+                          Киев, Украина | 2014 &ndash; 2021</em></div>
+                      <div>
+                        Средний балл 11.0 из 12.0<br>
+                        Профильный химбио класс
+                      </div>
+                    </li>
+                    <li>
+                      <div><em><strong>Детская школа исскуств (искусств) №4 </strong>| Киев, Украина | 2012 &ndash;
+                          2020</em></div>
+                      <div>
+                        Окончила класс фортепиано<br>
+                        Предметы: фортепиано, хор, сольфеджио, музыкальная литература
+                      </div>
+                    </li>
+                  </ul>
+                </section>
+                <section>
+                  <h3>Навыки</h3>
 
-                <p class="tags small">Фортепиано — FL Studio — Композиция — Импровизация — Запись вокала на Meizu M1 —
-                  Пищевые технологии — Блинчики — Биология — Механика — Вывод "Hello World" — Создание рандомайзеров на <a href="https://perchance.org">perchance.org</a> — Писательство — Фанфики
-                </p>
-              </section>
+                  <p class="tags small">Фортепиано — FL Studio — Композиция — Импровизация — Запись вокала на Meizu M1 —
+                    Пищевые технологии — Блинчики — Биология — Механика — Вывод "Hello World" — Создание рандомайзеров
+                    на <a href="https://perchance.org">perchance.org</a> — Писательство — Фанфики
+                  </p>
+                </section>
             </div>
           </div>
         </div>
@@ -315,4 +360,5 @@ main {
     </article>
   </main>
 </body>
+
 </html>
